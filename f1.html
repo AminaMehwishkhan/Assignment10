@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>San Marino Flag</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #eee;
+    }
+    .flag {
+      width: 360px;
+      height: 240px;
+      border: 1px solid #000;
+      position: relative;
+    }
+    .white {
+      background-color: white;
+      height: 50%;
+    }
+    .blue {
+      background-color: #61addd;
+      height: 50%;
+    }
+    .emblem {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/b/b1/Coat_of_arms_of_San_Marino.svg') no-repeat center;
+      background-size: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <div class="white"></div>
+    <div class="blue"></div>
+    <div class="emblem"></div>
+  </div>
+</body>
+</html>
